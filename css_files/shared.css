@@ -1,0 +1,73 @@
+* {
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+#Travel-Logo a {
+  font-family: "Oleo Script", sans-serif;
+  color: rgb(245, 243, 160);
+  text-decoration: none;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 7px rgb(0, 0, 0);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(243, 239, 24);
+  padding: 10px 10px;
+  margin: 0px 10px;
+  font-size: 20px;
+}
+
+nav a:hover {
+  background-color: rgb(243, 239, 24);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  transition: 0.6s ease;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px rgba(82, 80, 80, 0.8);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+footer {
+  background: linear-gradient(0deg, rgb(3, 3, 3), rgb(58, 58, 58));
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#icons {
+  display: flex;
+  list-style: none;
+}
+
+footer img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  padding: 10px;
+}
